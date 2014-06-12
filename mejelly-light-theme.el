@@ -10,9 +10,10 @@
 (let (
       (class '((class color) (min-colors 89)))
       (mejelly-light-fg "#323211")
-      (mejelly-light-bg "#f4f5e0")
+      ;;      (mejelly-light-bg "#f4f5e0")
+      (mejelly-light-bg "##FFF5D6")
 
-      (mejelly-light-orange-0 "#bf8440")
+      (mejelly-light-orange-0 "#f2650d")
 
       (mejelly-light-yellow-0 "#7f5406")
       (mejelly-light-yellow-1 "#808080")
@@ -52,7 +53,7 @@
                                                         :foreground ,mejelly-light-grey-0))))
    `(font-lock-constant-face                 ((,class ( :foreground ,mejelly-light-blue-1))))
    `(font-lock-doc-face                      ((,class ( :foreground ,mejelly-light-green-0))))
-   `(font-lock-function-name-face            ((,class ( :foreground ,mejelly-light-yellow-0))))
+   `(font-lock-function-name-face            ((,class ( :foreground ,mejelly-light-orange-0))))
    `(font-lock-keyword-face                  ((,class ( :foreground ,mejelly-light-blue-0))))
    `(font-lock-preprocessor-face             ((,class ( :foreground ,mejelly-light-fg))))
    `(font-lock-string-face                   ((,class ( :foreground ,mejelly-light-green-1))))
@@ -194,6 +195,8 @@
                                                         :background ,mejelly-light-bg))))
    `(smerge-refined-change                   ((,class ( :foreground ,mejelly-light-green-0))))
 
+   `(sml/modes ((,class ( :foreground ,mejelly-light-yellow-2))))
+
    `(trailing-whitespace                     ((,class ( :background ,mejelly-light-red-1))))
 
    `(web-mode-builtin-face                   ((,class ( :foreground ,mejelly-light-blue-0))))
@@ -214,4 +217,3 @@
 (provide-theme 'mejelly-light)
 
 ;;; mejelly-light-theme.el ends here
-
