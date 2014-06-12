@@ -10,22 +10,21 @@
 (let (
       (class '((class color) (min-colors 89)))
       (mejelly-light-fg "#323211")
-      ;;      (mejelly-light-bg "#f4f5e0")
       (mejelly-light-bg "##FFF5D6")
 
       (mejelly-light-orange-0 "#f2650d")
-
+      (mejelly-light-orange-1 "#ff6333")
       (mejelly-light-yellow-0 "#7f5406")
       (mejelly-light-yellow-1 "#808080")
-      (mejelly-light-yellow-2 "#d8ad4c") ; new color?
+      (mejelly-light-yellow-2 "#d8ad4c")
 
       (mejelly-light-blue-0 "#3a5ca6")
       (mejelly-light-blue-1 "#074e8d")
       (mejelly-light-blue-2 "#245370")
       (mejelly-light-blue-3 "#495f83")
 
-      (mejelly-light-green-0 "#bac99c")
-      (mejelly-light-green-1 "#809451")
+      (mejelly-light-green-0 "#809451")
+      (mejelly-light-green-1 "#58a329")
 
       (mejelly-light-grey-0 "#525252")
       (mejelly-light-grey-1 "#7f7f7f")
@@ -57,7 +56,7 @@
    `(font-lock-keyword-face                  ((,class ( :foreground ,mejelly-light-blue-0))))
    `(font-lock-preprocessor-face             ((,class ( :foreground ,mejelly-light-fg))))
    `(font-lock-string-face                   ((,class ( :foreground ,mejelly-light-green-1))))
-   `(font-lock-type-face                     ((,class ( :foreground ,mejelly-light-orange-0))))
+   `(font-lock-type-face                     ((,class ( :foreground ,mejelly-light-red-0))))
    `(font-lock-variable-name-face            ((,class ( :foreground ,mejelly-light-purple-0))))
    `(font-lock-warning-face                  ((,class ( :foreground ,mejelly-light-red-1))))
 
@@ -98,6 +97,7 @@
    `(enh-ruby-heredoc-delimiter-face         ((,class ( :foreground ,mejelly-light-green-0))))
    `(enh-ruby-op-face                        ((,class ( :foreground ,mejelly-light-fg))))
    `(enh-ruby-regexp-delimiter-face          ((,class ( :foreground ,mejelly-light-purple-3))))
+   `(enh-ruby-regexp-face                    ((,class ( :foreground ,mejelly-light-red-1))))
    `(enh-ruby-string-delimiter-face          ((,class ( :foreground ,mejelly-light-green-0))))
 
    `(erc-notice-face                         ((,class ( :foreground ,mejelly-light-yellow-0))))
@@ -195,7 +195,7 @@
                                                         :background ,mejelly-light-bg))))
    `(smerge-refined-change                   ((,class ( :foreground ,mejelly-light-green-0))))
 
-   `(sml/modes ((,class ( :foreground ,mejelly-light-yellow-2))))
+   `(sml/modes                               ((,class ( :foreground ,mejelly-light-yellow-2))))
 
    `(trailing-whitespace                     ((,class ( :background ,mejelly-light-red-1))))
 
