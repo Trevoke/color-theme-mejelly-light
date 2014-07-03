@@ -5,12 +5,13 @@
 ;; Version: 1.0.40
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
+;; Optimized for projector use
 (deftheme mejelly-light "The mejelly-light color theme")
 
 (let (
       (class '((class color) (min-colors 89)))
       (mejelly-light-fg "#323211")
-      (mejelly-light-bg "##FFF5D6")
+      (mejelly-light-bg "#FFF6DB")
 
       (mejelly-light-orange-0 "#f2650d")
       (mejelly-light-orange-1 "#ff6333")
@@ -22,6 +23,7 @@
       (mejelly-light-blue-1 "#074e8d")
       (mejelly-light-blue-2 "#245370")
       (mejelly-light-blue-3 "#495f83")
+      (mejelly-light-blue-4 "#A8F0EF")
 
       (mejelly-light-green-0 "#809451")
       (mejelly-light-green-1 "#58a329")
@@ -131,7 +133,7 @@
    `(helm-source-header                      ((,class ( :foreground ,mejelly-light-red-1
                                                         :background ,mejelly-light-grey-3))))
 
-   `(hl-line                                 ((,class ( :background ,mejelly-light-grey-3))))
+   `(hl-line                                 ((,class ( :background ,mejelly-light-grey-2))))
 
    `(isearch                                 ((,class ( :foreground ,mejelly-light-fg
                                                         :background ,mejelly-light-red-1))))
@@ -189,7 +191,7 @@
    `(org-special-keyword                     ((,class ( :foreground ,mejelly-light-purple-0))))
    `(org-todo                                ((,class ( :foreground ,mejelly-light-yellow-0))))
 
-   `(region                                  ((,class ( :background ,mejelly-light-purple-1))))
+   `(region                                  ((,class ( :background ,mejelly-light-blue-4))))
 
    `(smerge-markers                          ((,class ( :foreground ,mejelly-light-yellow-0
                                                         :background ,mejelly-light-bg))))
@@ -204,7 +206,7 @@
                                                         :background nil))))
 
    `(web-mode-html-attr-name-face            ((,class ( :foreground ,mejelly-light-purple-0))))
-   `(web-mode-html-tag-face                  ((,class ( :foreground ,mejelly-light-fg))))
+   `(web-mode-html-tag-face                  ((,class ( :foreground ,mejelly-light-orange-0))))
    `(web-mode-symbol-face                    ((,class ( :foreground ,mejelly-light-blue-1))))
 
    `(trailing-whitespace                     ((,class ( :background ,mejelly-light-red-1))))))
