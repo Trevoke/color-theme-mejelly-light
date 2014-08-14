@@ -25,7 +25,7 @@
       (mejelly-light-blue-3 "#495f83")
       (mejelly-light-blue-4 "#A8F0EF")
 
-      (mejelly-light-green-0 "#809451")
+      (mejelly-light-green-0 "#91AC53")
       (mejelly-light-green-1 "#58a329")
 
       (mejelly-light-grey-0 "#525252")
@@ -165,7 +165,7 @@
                                                         :foreground ,mejelly-light-yellow-0
                                                         :background ,mejelly-light-bg))))
    `(magit-item-highlight                    ((,class ( :weight normal
-                                                        :background ,mejelly-light-bg))))
+                                                        :background ,mejelly-light-orange-0))))
    `(magit-log-author                        ((,class ( :foreground ,mejelly-light-fg))))
    `(magit-log-sha1                          ((,class ( :foreground ,mejelly-light-red-0
                                                         :background ,mejelly-light-bg))))
