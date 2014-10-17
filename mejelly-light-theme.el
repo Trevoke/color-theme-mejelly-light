@@ -11,7 +11,7 @@
 (let (
       (class '((class color) (min-colors 89)))
       (mejelly-light-fg "#323211")
-      (mejelly-light-bg "#FFF6DB")
+      (mejelly-light-bg "#F5EFDA")
 
       (mejelly-light-orange-0 "#f2650d")
       (mejelly-light-orange-1 "#ff6333")
