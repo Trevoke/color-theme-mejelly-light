@@ -182,7 +182,7 @@
    `(mode-line-inactive                      ((,class ( :foreground ,mejelly-light-grey-3
 							:background nil))))
 
-   `(org-hide                                ((,class ( :background ,mejelly-light-bg))))
+   `(org-hide                                ((,class ( :foreground ,mejelly-light-bg))))
    `(org-checkbox                            ((,class ( :foreground ,mejelly-light-green-0))))
    `(org-date                                ((,class ( :foreground ,mejelly-light-purple-0))))
    `(org-done                                ((,class ( :foreground ,mejelly-light-green-0))))
