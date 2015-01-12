@@ -47,11 +47,11 @@
   (custom-theme-set-faces
    'mejelly-light
    `(default                                 ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
 
    `(font-lock-builtin-face                  ((,class ( :foreground ,mejelly-light-blue-0))))
    `(font-lock-comment-face                  ((,class ( :slant italic
-                                                        :foreground ,mejelly-light-grey-0))))
+							:foreground ,mejelly-light-grey-0))))
    `(font-lock-constant-face                 ((,class ( :foreground ,mejelly-light-blue-1))))
    `(font-lock-doc-face                      ((,class ( :foreground ,mejelly-light-green-0))))
    `(font-lock-function-name-face            ((,class ( :foreground ,mejelly-light-orange-0))))
@@ -75,24 +75,24 @@
    `(diredp-date-time                        ((,class ( :foreground ,mejelly-light-fg))))
    `(diredp-deletion                         ((,class ( :foreground ,mejelly-light-red-0))))
    `(diredp-dir-heading                      ((,class ( :foreground ,mejelly-light-yellow-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(diredp-dir-priv                         ((,class ( :foreground ,mejelly-light-green-1
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(diredp-exec-priv                        ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(diredp-file-name                        ((,class ( :foreground ,mejelly-light-fg))))
    `(diredp-file-suffix                      ((,class ( :foreground ,mejelly-light-fg))))
    `(diredp-link-priv                        ((,class ( :foreground ,mejelly-light-fg))))
    `(diredp-number                           ((,class ( :foreground ,mejelly-light-fg))))
    `(diredp-no-priv                          ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(diredp-rare-priv                        ((,class ( :foreground ,mejelly-light-red-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(diredp-read-priv                        ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(diredp-symlink                          ((,class ( :foreground ,mejelly-light-red-3))))
    `(diredp-write-priv                       ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
 
    `(emmet-preview-output                    ((,class ( :background ,mejelly-light-purple-1))))
 
@@ -108,13 +108,13 @@
 
    `(eshell-prompt                           ((,class ( :foreground ,mejelly-light-red-0))))
    `(eshell-ls-directory                     ((,class ( :weight normal
-                                                        :foreground ,mejelly-light-green-1))))
+							:foreground ,mejelly-light-green-1))))
    `(eshell-ls-executable                    ((,class ( :foreground ,mejelly-light-red-0))))
    `(eshell-ls-product                       ((,class ( :foreground ,mejelly-light-fg))))
    `(eshell-ls-symlink                       ((,class ( :foreground ,mejelly-light-purple-2))))
 
    `(fringe                                  ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-grey-2))))
+							:background ,mejelly-light-grey-2))))
 
    `(git-commit-comment-file-face            ((,class ( :foreground ,mejelly-light-fg))))
    `(git-commit-comment-heading-face         ((,class ( :foreground ,mejelly-light-yellow-0))))
@@ -124,19 +124,19 @@
 
    `(helm-buffer-size                        ((,class ( :foreground ,mejelly-light-fg))))
    `(helm-candidate-number                   ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(helm-ff-directory                       ((,class ( :background ,mejelly-light-bg))))
    `(helm-ff-file                            ((,class ( :foreground ,mejelly-light-fg))))
    `(helm-match                              ((,class ( :foreground ,mejelly-light-yellow-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(helm-selection                          ((,class ( :background ,mejelly-light-purple-1))))
    `(helm-source-header                      ((,class ( :foreground ,mejelly-light-red-1
-                                                        :background ,mejelly-light-grey-3))))
+							:background ,mejelly-light-grey-3))))
 
    `(hl-line                                 ((,class ( :background ,mejelly-light-grey-2))))
 
    `(isearch                                 ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-red-1))))
+							:background ,mejelly-light-red-1))))
    `(isearch-fail                            ((,class ( :background ,mejelly-light-red-1))))
 
    `(ido-first-match                         ((,class ( :foreground ,mejelly-light-yellow-0))))
@@ -145,43 +145,44 @@
    `(ido-virtual                             ((,class ( :foreground ,mejelly-light-purple-0))))
 
    `(lazy-highlight                          ((,class ( :foreground ,mejelly-light-red-1
-                                                        :background nil))))
+							:background nil))))
 
    `(linum                                   ((,class ( :inherit nil
-                                                        :slant normal
-                                                        :foreground ,mejelly-light-grey-0
-                                                        :background ,mejelly-light-grey-2))))
+							:slant normal
+							:foreground ,mejelly-light-grey-0
+							:background ,mejelly-light-grey-2))))
 
    `(magit-branch                            ((,class ( :foreground ,mejelly-light-red-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(magit-diff-add                          ((,class ( :foreground ,mejelly-light-green-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(magit-diff-del                          ((,class ( :foreground ,mejelly-light-red-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(magit-diff-file-header                  ((,class ( :inherit nil
-                                                        :foreground ,mejelly-light-red-2
-                                                        :background ,mejelly-light-bg))))
+							:foreground ,mejelly-light-red-2
+							:background ,mejelly-light-bg))))
    `(magit-diff-hunk-header                  ((,class ( :inherit nil
-                                                        :foreground ,mejelly-light-yellow-0
-                                                        :background ,mejelly-light-bg))))
+							:foreground ,mejelly-light-yellow-0
+							:background ,mejelly-light-bg))))
    `(magit-item-highlight                    ((,class ( :weight normal
-                                                        :background ,mejelly-light-orange-0))))
+							:background ,mejelly-light-orange-0))))
    `(magit-log-author                        ((,class ( :foreground ,mejelly-light-fg))))
    `(magit-log-sha1                          ((,class ( :foreground ,mejelly-light-red-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(magit-log-head-label-local              ((,class ( :foreground ,mejelly-light-fg))))
    `(magit-section-title                     ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(magit-whitespace-warning-face           ((,class ( :background ,mejelly-light-red-1))))
 
    `(minibuffer-prompt                       ((,class ( :foreground ,mejelly-light-fg
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
 
    `(mode-line                               ((,class ( :foreground ,mejelly-light-fg
-                                                        :background nil))))
+							:background nil))))
    `(mode-line-inactive                      ((,class ( :foreground ,mejelly-light-grey-3
-                                                        :background nil))))
+							:background nil))))
 
+   `(org-hide                                ((,class ( :background ,mejelly-light-bg))))
    `(org-checkbox                            ((,class ( :foreground ,mejelly-light-green-0))))
    `(org-date                                ((,class ( :foreground ,mejelly-light-purple-0))))
    `(org-done                                ((,class ( :foreground ,mejelly-light-green-0))))
@@ -194,7 +195,7 @@
    `(region                                  ((,class ( :background ,mejelly-light-blue-4))))
 
    `(smerge-markers                          ((,class ( :foreground ,mejelly-light-yellow-0
-                                                        :background ,mejelly-light-bg))))
+							:background ,mejelly-light-bg))))
    `(smerge-refined-change                   ((,class ( :foreground ,mejelly-light-green-0))))
 
    `(sml/modes                               ((,class ( :foreground ,mejelly-light-yellow-2))))
@@ -203,7 +204,7 @@
 
    `(web-mode-builtin-face                   ((,class ( :foreground ,mejelly-light-blue-0))))
    `(web-mode-current-element-highlight-face ((,class ( :foreground ,mejelly-light-red-1
-                                                        :background nil))))
+							:background nil))))
 
    `(web-mode-html-attr-name-face            ((,class ( :foreground ,mejelly-light-purple-0))))
    `(web-mode-html-tag-face                  ((,class ( :foreground ,mejelly-light-orange-0))))
@@ -214,7 +215,7 @@
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name))))
+	       (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'mejelly-light)
 
